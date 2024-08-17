@@ -1,0 +1,135 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    
+}
+
+
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 10px;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.container .section {
+    background-color: #efefef;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+    
+}
+.container:not(feat) {
+    text-align: center;
+}
+.cost {
+    background-color: #5f5ff2;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    border: 4px solid #efefef;
+    color: white;
+}
+.cost div {
+    position: relative;
+    top: 20px;
+}
+.cost div:first-child {
+    font-size: 35px;
+    font-weight: 500;
+}
+.cost div:last-child {
+    font-size: 10px;
+}
+h3 {
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+p {
+    position: relative;
+    bottom: 80px;
+    font-size: 12px;
+}
+.container .section:nth-child(2) div:nth-child(2) {
+    background-color: #5f5ff2;
+    position: relative;
+    bottom: 25px;
+    left: 140px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+}
+.container .section:nth-child(2){
+    margin-top:-60px;
+    height: 550px;
+}
+button {
+    background-color: #5f5ff2;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+}
+.line {
+    width: 350px;
+    height: 1px;
+    background-color: #6d6d72;
+    position: relative;
+    bottom: 70px;
+}
+.feat {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    left: 80px;
+    color: #6d6d72;
+    
+}
+.feat span {
+    margin-left: 5px;
+} 
